@@ -24,7 +24,7 @@ body{
   padding-left: 0px;
   padding-top: 10px;
   margin-left: 25px;
-  margin-right: 350px;
+  margin-right: 325px;
   margin-top: 10px;
   float:left;
   text-align: center;
@@ -48,6 +48,7 @@ body{
   display: table-cell;
   padding-left: 20px;
 }
+/*Below is where the most changes will occur*/
 article{
   float:left;
   padding:30px 20px 20px 20px;
@@ -94,8 +95,9 @@ h1{
   padding-top: 20px;
 }
 footer{
+  border-style: solid;
   border-top-color:#4aaaa5;
-  border-top-width: medium;
+  border-top-width: 5px;
   position: absolute;
   right: 0;
   bottom: 0;
