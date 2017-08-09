@@ -15,11 +15,11 @@ p{
 body{
   background-image: url("../images/ep_naturalwhite.png");
   background-repeat: repeat;
-  width: 960px;
+  /*width: 960px;*/
 }
 #left-sec{
   background-color: #4aaaa5;
-  width:33%;
+  width:31%;
   height: 80px;
   padding-left: 0px;
   padding-top: 10px;
@@ -54,7 +54,8 @@ article{
   margin-top: 20px;
   background-color: white;
   width: 600px;
-}hr{
+}
+hr{
   color: #dddddd;
   fill: #dddddd;
 }
@@ -64,16 +65,20 @@ article{
   float:left;
   padding-right: 20px;
 }
-article h3{
+aside{
+  background-color: white;
+  float:left;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding:30px 20px 20px 20px;
+  width: 140px;
+}
+aside h3{
   font-size: 20px;
   color:#4aaaa5
 }
-article img{
+aside img{
   width:30px;
-}
-aside{
-  float:left;
-  width: 20%;
 }
 a:link{
   color:#808080;
@@ -84,6 +89,17 @@ h1{
   padding-top: 20px;
 }
 footer{
-  background-color: #666;
-  width:50px;
+  border-top-color:#4aaaa5;
+  border-top-width: medium;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #666;
+  height:50px;
+}
+footer p{
+  width:100%;
+  text-align: center;
+  color:#b6c7bf;
 }
