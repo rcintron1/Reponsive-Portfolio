@@ -2,13 +2,24 @@
   font-size: large;
 }
 header{
-  padding-left: 50px;
+  /*padding-left: 50px;*/
+  margin: 0;
+  height: 100px;
+  background-color: white;
+}
+body{
+  background-image: url("../images/ep_naturalwhite.png");
+  background-repeat: repeat;
+  clear: both;
 }
 #left-sec{
   background-color: #4aaaa5;
   width:33%;
   height: 80px;
   padding-left: 0px;
+  padding-top: 10px;
+  margin-left: 20px;
+  margin-top: 10px;
   float:left;
   text-align: center;
 }
@@ -39,5 +50,5 @@ h1{
   font-size: 30px;
 }
 .mainbody{
-  clear: both;
+
 }
