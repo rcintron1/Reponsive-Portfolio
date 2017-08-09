@@ -19,11 +19,11 @@ body{
 }
 #left-sec{
   background-color: #4aaaa5;
-  width:31%;
+  width:275px;
   height: 80px;
   padding-left: 0px;
   padding-top: 10px;
-  margin-left: 20px;
+  margin-left: 25px;
   margin-top: 10px;
   float:left;
   text-align: center;
@@ -31,9 +31,10 @@ body{
 
 #right-sec{
   background-color: #ffffff;
-  width:33%;
+  width:300px;
   height: 80px;
-  float: right;
+  float: left;
+  margin-left: 275;
   color:#808080;
   text-align: center;
 }
