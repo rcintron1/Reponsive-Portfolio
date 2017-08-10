@@ -38,6 +38,7 @@ h1{
   color:white;
   font-size: 30px;
 }
-.mainbody{
+.divbody{
   clear: both;
+  background-image: "./assets/images/ep_naturalwhite.png";
 }
