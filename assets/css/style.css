@@ -15,7 +15,7 @@ p{
 body{
   background-image: url("../images/ep_naturalwhite.png");
   background-repeat: repeat;
-  /*width: 960px;*/
+  max-width: 980px;
 }
 #left-sec{
   background-color: #4aaaa5;
@@ -36,7 +36,7 @@ body{
   height: 80px;
   float: right;
   color:#808080;
-  text-align: right;
+  /*text-align: right;*/
 }
 #content{
   height:80px;
@@ -50,12 +50,14 @@ body{
 }
 /*Below is where the most changes will occur*/
 article{
+  clear:both;
   float:left;
   padding:30px 20px 20px 20px;
   margin-left: 20px;
   margin-top: 20px;
   background-color: white;
-  width: 600px;
+  width: 510px;
+  padding-bottom:80px;
 }
 hr{
   color: #dddddd;
@@ -63,13 +65,13 @@ hr{
 }
 
 #img-nick{
-  width:180px;
-  float:left;
+  width:300px;
+  /*float:left;*/
   padding-right: 20px;
 }
 aside{
-  background-color: white;
   float:left;
+  background-color: white;
   margin-left: 20px;
   margin-top: 20px;
   padding:30px 20px 20px 20px;
@@ -84,7 +86,7 @@ aside h3{
   color:#4aaaa5
 }
 aside img{
-  width:30px;
+  width:40px;
 }
 a:link{
   color:#808080;
@@ -99,7 +101,7 @@ footer{
   border-style: solid;
   border-top-color:#4aaaa5;
   border-top-width: 5px;
-  position: absolute;
+  position: fixed;
   right: 0;
   bottom: 0;
   left: 0;
@@ -110,8 +112,31 @@ footer{
 
 }
 @media only screen and (max-width:768px){
-
+  aside{
+    padding-bottom: 60px;
+  }
 }
 @media only screen and (max-width:640px){
-
+  #right-sec{
+    clear:both;
+    width: 100%;
+  }
+  #content{
+    text-align: justify;
+    text-justify: distribute-all-lines;
+    width:100%;
+    }
+  #content>div {
+    width: 100px;
+    height: 100px;
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+  }
+  article{
+    width:80%;
+  }
+  aside{
+    padding-bottom: 60px;
+  }
 }
