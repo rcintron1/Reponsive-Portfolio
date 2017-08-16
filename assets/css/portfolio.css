@@ -13,7 +13,7 @@
 .div-table-col {
   float: left; /* fix for  buggy browsers */
   display: table-column;
-  width: 195px;
+  width: 150px;
   margin: 40px;
   /*background-color: #ccc;*/
 }
