@@ -24,7 +24,7 @@ body{
   padding-left: 0px;
   padding-top: 10px;
   margin-left: 25px;
-  margin-right: 325px;
+  margin-right: 25px;
   margin-top: 10px;
   float:left;
   text-align: center;
@@ -34,9 +34,9 @@ body{
   background-color: #ffffff;
   width:300px;
   height: 80px;
-  float: left;
+  float: right;
   color:#808080;
-  text-align: center;
+  text-align: right;
 }
 #content{
   height:80px;
@@ -73,7 +73,7 @@ aside{
   margin-left: 20px;
   margin-top: 20px;
   padding:30px 20px 20px 20px;
-  width: 140px;
+  /*width: 140px;*/
 }
 h2{
   color:#4aaaa5;
@@ -95,6 +95,7 @@ h1{
   padding-top: 20px;
 }
 footer{
+  clear:both;
   border-style: solid;
   border-top-color:#4aaaa5;
   border-top-width: 5px;
@@ -104,4 +105,13 @@ footer{
   left: 0;
   background: #666;
   height:50px;
+}
+@media only screen and (max-width:980px){
+
+}
+@media only screen and (max-width:768px){
+
+}
+@media only screen and (max-width:640px){
+
 }
